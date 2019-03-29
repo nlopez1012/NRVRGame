@@ -8,9 +8,9 @@ public class coinsettings : MonoBehaviour
     public GameObject scoreText;
     public static int theScore;
 
-    void update()
+    void Update()
     {
-
+        Debug.Log(theScore);
         scoreText.GetComponent<Text>().text = "SCORE : " + theScore;
 
     }
