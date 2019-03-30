@@ -14,4 +14,8 @@ public class coinsettings : MonoBehaviour
         scoreText.GetComponent<Text>().text = "SCORE : " + theScore;
 
     }
-}
+
+    
+  
+    }
+
