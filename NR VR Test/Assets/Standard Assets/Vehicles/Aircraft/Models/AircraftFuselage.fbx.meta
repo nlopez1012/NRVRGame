@@ -81,6 +81,7 @@ ModelImporter:
     4300026: AircraftFuselageGearDoorRight
     4300028: AircraftFuselageRudderRight
     9500000: //RootNode
+    11100000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects:
   - first:
@@ -106,7 +107,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
+    importConstraints: 1
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -164,10 +165,10 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
