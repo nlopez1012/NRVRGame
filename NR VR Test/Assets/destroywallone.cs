@@ -9,8 +9,9 @@ public class destroywallone : MonoBehaviour
     
      
 
-        void Update()
-        {
+
+      void  OnTriggerEnter(Collider other)
+    {
             if (coinsettings.theScore == 650)
             {
 
@@ -18,6 +19,8 @@ public class destroywallone : MonoBehaviour
             }
 
         }
+    
+        
 
 
        
