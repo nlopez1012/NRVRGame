@@ -1,17 +1,32 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class soundandscore : MonoBehaviour
-{
-    
-    public AudioSource collectSound;
 
-    void OnTriggerEnter(Collider other)
+
+    public class soundandscore : MonoBehaviour
+
     {
-        collectSound.Play();
-        coinsettings.theScore += 50;
-      
-        Destroy(gameObject);
+
+
+
+        public AudioSource collectSound;
+
+
+
+        void OnTriggerEnter(Collider other)
+
+        {
+
+            collectSound.Play();
+
+            coinsettings.theScore += 50;
+
+
+
+            Destroy(gameObject);
+
+        }
+
     }
-}
